@@ -89,7 +89,7 @@ object Hangman extends App {
          #$guesses
          #
          #""".stripMargin('#')
-      }
+      }.orDie
     }
   }
 
